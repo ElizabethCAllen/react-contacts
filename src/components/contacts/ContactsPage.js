@@ -1,7 +1,11 @@
-import ContactsList from "./ContactsList";
+import ContactCreateForm from "./ContactCreateForm";
 
-const ContactsPage = ({ contacts=[] }) => {
-    return <ContactsList contacts={contacts} />
+const ContactCreatePage = () => {
+    return (
+        <div>
+            <ContactCreateForm />
+        </div>
+    )
 }
 
-export default ContactsPage;
+export default ContactCreatePage;
